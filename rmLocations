@@ -1,0 +1,11 @@
+curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Cliff House", "addressString":""}'
+curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Alices Restaurant", "addressString":""}'
+curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Flea Street Cafe", "addressString":""}'
+curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"The Dutch Goose", "addressString":""}'
+curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Mikado Restaurant", "addressString":""}'
+curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Peets Coffee", "addressString":""}'
+curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Sumika Grill"}'
+curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Home"}'
+curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Work"}'
+curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Richmond Office"}'
+

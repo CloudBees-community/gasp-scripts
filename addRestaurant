@@ -1,0 +1,8 @@
+echo -n "name: "
+read NAME
+echo -n "website: "
+read WEBSITE
+echo -n "address: "
+read ADDRESS
+curl -i -X POST -H "Content-Type:application/json" http://gasp.partnerdemo.cloudbees.net/restaurants -d "{\"name\":\"$NAME\",\"website\":\"$WEBSITE\",\"address\":\"$ADDRESS\"}"
+

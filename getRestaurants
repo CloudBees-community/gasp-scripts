@@ -1,0 +1,2 @@
+curl -i -X GET  http://gasp.partnerdemo.cloudbees.net/restaurants; echo
+

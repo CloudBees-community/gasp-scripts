@@ -1,0 +1,4 @@
+echo -n "name: "
+read NAME
+curl -i -X POST -H "Content-Type:application/json" http://gasp.partnerdemo.cloudbees.net/users -d "{\"name\":\"$NAME\"}"
+
