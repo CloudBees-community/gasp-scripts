@@ -1,1 +1,0 @@
-curl -X GET http://gasp-mongo.partnerdemo.cloudbees.net/locations/get; echo

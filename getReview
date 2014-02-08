@@ -1,0 +1,3 @@
+echo -n "index: "
+read INDEX
+curl -i -X GET  http://gasp2.partnerdemo.cloudbees.net/reviews/$INDEX; echo

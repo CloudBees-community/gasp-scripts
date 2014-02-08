@@ -1,8 +1,0 @@
-curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Cliff House"}'
-curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Alices Restaurant"}'
-curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Flea Street Cafe"}'
-curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"The Dutch Goose"}'
-curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Mikado Restaurant"}'
-curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Peets Coffee"}'
-curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://gasp-mongo.partnerdemo.cloudbees.net/locations/remove -d '{"name":"Sumika Grill"}'
-
