@@ -1,4 +1,4 @@
-use gasp-db;
+use gasp2-db;
 delete from review;
 alter table review auto_increment = 1;
 delete from restaurant;

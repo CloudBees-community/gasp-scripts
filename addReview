@@ -6,4 +6,5 @@ echo -n "user_id: "
 read USER_ID
 echo -n "restaurant_id: "
 read RESTAURANT_ID
-curl -i -H "Content-Type:application/json" -X POST http://gasp.partnerdemo.cloudbees.net/reviews -d "{\"star\":$STAR,\"comment\":\"$COMMENT\",\"user\":\"http://gasp.partnerdemo.cloudbees.net/users/$USER_ID\",\"restaurant\":\"http://gasp.partnerdemo.cloudbees.net/restaurants/$RESTAURANT_ID\"}"
+echo Request: curl -i -H "Content-Type:application/json" -X POST http://gasp2.partnerdemo.cloudbees.net/reviews -d "{\"star\":$STAR,\"comment\":\"$COMMENT\",\"user\":\"http://gasp2.partnerdemo.cloudbees.net/users/$USER_ID\",\"restaurant\":\"http://gasp2.partnerdemo.cloudbees.net/restaurants/$RESTAURANT_ID\"}"
+curl -i -H "Content-Type:application/json" -X POST http://gasp2.partnerdemo.cloudbees.net/reviews -d "{\"star\":$STAR,\"comment\":\"$COMMENT\",\"user\":\"http://gasp2.partnerdemo.cloudbees.net/users/$USER_ID\",\"restaurant\":\"http://gasp2.partnerdemo.cloudbees.net/restaurants/$RESTAURANT_ID\"}"
